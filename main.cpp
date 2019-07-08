@@ -56,7 +56,7 @@ int main()
 {
     while (true) {
         memset(buf, 0, sizeof(buf));
-        uint32_t actual;
+        size_t actual;
         bool good_read = pc.read(buf, sizeof(buf) - 1, &actual);
         if (!good_read) {
             cobs_errors++;
