@@ -19,7 +19,7 @@ The hardware needed for this repository is as follows:
  ```
  > mbed compile -t ARM -m NUCLEO_F401RE -f
  ```
- - Download the latest FPGA firmware from the [FPGA CI Test Shield repository](https://github.com/ARMmbed/fpga-ci-test-shield)
+ - Download the latest FPGA firmware from the [FPGA CI Test Shield repository](https://github.com/ARMmbed/fpga-ci-test-shield/releases)
  - Program flash using the update script
  ```
  > python update.py --update latest_release.bin --reload COM5
